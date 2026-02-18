@@ -1,7 +1,7 @@
 import os
 import shutil
 
-source_dir = r"C:\Users\dkoom\Desktop\Basic-File-Mover"
+source_dir = r"You Folder"
 
 dest_dirs = {
     ".jpg": os.path.join(source_dir, "Pictures"),
@@ -48,3 +48,4 @@ if __name__ == "__main__":
     print("Starting to organize files...")
     move_files()
     print("✨ Work completed!")
+
